@@ -28,6 +28,9 @@ bool numcaracter(int valorascii){
 	return false;
 }
 
+//esse método verifica se o a varaivel tam é maior ou igual a 15. 
+//TODO - melhorar o nome da variavel 
+//TODO - externalizar a variavel 15 para deixar com constante no  comeco do codigo. 
 bool tamanho(int tam){
 	if(tam >= 15){
 		return true;
